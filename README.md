@@ -17,12 +17,15 @@ Die Wiederstände R1, R2, R3, R4 werden mit den 4x Widerstand 2,2 kΩ Bauform 02
 Die NEM660 Schnittstelle wird mit der 24 Pin Steckleiste mit 1,27mm Raster bestückt.
 Der Keramikkondensator 1206 mit 1UF muss auf die Pads zwischen R1 und R3
 
+
 # Pufferschaltung über mSD3 SUSI
 Zusätzlich benötigte Komponenten:
 2x Elko mit 500 - 1000 UF und max. 8,2 x 20 mm Radial
 1x Schottkydiode mit 2 A Stromfestigkeit 25V Spannungsfestigkeit (mehr geht auch)
 1x Widerstand 100 Ω
+Zusammenbau:
 Die beiden Elkos Paralell schalten. Dann die Scotty-Diode Parelell zum Wiederstand mit der + seite der Elkos verbinden.
+Einbau:
 Die Pufferschaltung dann mit +UB (+) und GND (-) auf der Adapterplatiene (bei eingebauter Platiene oben) verbinden.
 Alternativ kann die Pufferschaltung auch an die Kontakte für den auf der Platiene integrierten Kondensator (bei eingebauter Platiene unten) angeschlossen werden. 
 Diese Lötpads sind ebenso mit +UB und GND verbunden.
